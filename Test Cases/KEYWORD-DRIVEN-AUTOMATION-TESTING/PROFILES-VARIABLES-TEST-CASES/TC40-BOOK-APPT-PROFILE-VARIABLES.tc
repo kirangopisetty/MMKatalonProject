@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC40-BOOK-APPT-PROFILE-VARIABLES</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>723fd324-d1e9-4f05-9b6b-6968da75974b</testCaseGuid>
+</TestCaseEntity>

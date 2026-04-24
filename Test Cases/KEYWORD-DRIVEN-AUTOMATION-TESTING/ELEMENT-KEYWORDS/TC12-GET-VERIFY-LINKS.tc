@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12-GET-VERIFY-LINKS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0aea2cd9-7829-413c-8500-87a300b71d42</testCaseGuid>
+</TestCaseEntity>

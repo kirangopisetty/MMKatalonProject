@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC30-HEALTHCARE-LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2409b4a0-496a-4da3-a08d-3821c780c0a3</testCaseGuid>
+</TestCaseEntity>

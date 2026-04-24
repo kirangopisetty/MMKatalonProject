@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-AUTHENTICATE</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44d0387b-73fb-427a-9459-487aa5e8afcd</testCaseGuid>
+</TestCaseEntity>

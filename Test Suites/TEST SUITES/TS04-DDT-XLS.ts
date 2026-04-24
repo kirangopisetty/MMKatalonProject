@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS04-DDT-XLS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5b6e8db2-5840-4fb6-acd7-cb2078ccb386</testSuiteGuid>
+   <testCaseLink>
+      <guid>35078b0f-bcd3-4e09-b0be-1678d2776110</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/KEYWORD-DRIVEN-AUTOMATION-TESTING/VARIABLES-TEST-CASES/TC39-HEALTHCARE-VARIABLES</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/HEALTHCARE-TESTDATA-XLS</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varUN</value>
+         <variableId>7474c5e2-8412-4c94-bcb3-0f467adf244b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varPWD</value>
+         <variableId>ccaf7601-2d1b-4624-9f30-16b76f63f8d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varURL</value>
+         <variableId>fa547780-1051-42e6-872b-193a7fa9eb03</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varFacility</value>
+         <variableId>fcbec7df-0aea-41b2-a452-75aacf514c9a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varVisitDate</value>
+         <variableId>ad023251-2396-4259-b681-9a4a1c417884</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e83a1ec8-4e44-4ec1-aa5d-fd0b7b6c69d2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>varComment</value>
+         <variableId>20ea2690-f3ef-4680-88d1-9598edef9010</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

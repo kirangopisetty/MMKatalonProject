@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31-HEALTHCARE-BOOK-APPT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44c77b9c-5b88-43c8-aa69-6a0da9fc8b80</testCaseGuid>
+</TestCaseEntity>

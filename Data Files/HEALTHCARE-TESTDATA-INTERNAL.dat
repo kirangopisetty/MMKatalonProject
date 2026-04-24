@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>HEALTHCARE-TESTDATA-INTERNAL</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a229fda5-b20b-46a6-a619-b8e2b56ea00f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM https%3A%2F%2Fkatalon-demo-cura.herokuapp.com%2Fprofile.php%23login Tokyo+CURA+Healthcare+Center 01%2F05%2F2026 Internal1</data>
+   <data>John+Doe g3%2FDOGG74jC3Flrr3yH%2B3D%2FyKbOqqUNM https%3A%2F%2Fkatalon-demo-cura.herokuapp.com%2Fprofile.php%23login Hongkong+CURA+Healthcare+Center 01%2F06%2F2026 Internal2</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>varUN</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>varPWD</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>varURL</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>varFacility</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>varVisitDate</name>
+      <size>2</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>varComment</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

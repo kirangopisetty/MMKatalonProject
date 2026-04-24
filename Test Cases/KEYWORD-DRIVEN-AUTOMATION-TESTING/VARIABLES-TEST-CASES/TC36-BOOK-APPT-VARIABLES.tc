@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC36-BOOK-APPT-VARIABLES</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3be47081-9434-44bd-9255-d7b6f43cc549</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>782056ed-2102-4afa-8f73-00cf68813263</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec121b25-075d-4a14-ad24-319c23273d2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df1013e5-b25e-4036-9462-f510f43b9bd0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>782056ed-2102-4afa-8f73-00cf68813263</id>
+      <masked>false</masked>
+      <name>varFacility</name>
+   </variable>
+   <variable>
+      <defaultValue>'29/04/2026'</defaultValue>
+      <description></description>
+      <id>ec121b25-075d-4a14-ad24-319c23273d2e</id>
+      <masked>false</masked>
+      <name>varVisitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'2nd opinion from the doctor'</defaultValue>
+      <description></description>
+      <id>df1013e5-b25e-4036-9462-f510f43b9bd0</id>
+      <masked>false</masked>
+      <name>varComment</name>
+   </variable>
+</TestCaseEntity>

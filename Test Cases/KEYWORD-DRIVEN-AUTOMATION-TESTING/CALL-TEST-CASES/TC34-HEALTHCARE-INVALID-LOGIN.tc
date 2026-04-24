@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34-HEALTHCARE-INVALID-LOGIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b46deb13-a7bd-4671-b7be-d281a12c134b</testCaseGuid>
+</TestCaseEntity>

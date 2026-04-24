@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LOGIN-BUTTON</name>
+   <tag></tag>
+   <elementGuidId>94670393-5381-49c5-bd58-f53a8a38e0ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.style_loginSec__pTp_V</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>87d62e7d-8b18-480e-93f8-2825f6933552</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>style_loginSec__pTp_V</value>
+      <webElementGuid>bbce01c0-4f20-466e-8928-faef863e3d9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>70b1a633-3d4e-4aa1-8d98-1ed6e76cfc6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;style_headerWrap__5RQPy&quot;]/div[1]/div[@class=&quot;wraper&quot;]/nav[@class=&quot;style_topMiddleNav__ElFgL&quot;]/div[@class=&quot;style_right__ymqow&quot;]/ul[1]/li[6]/div[@class=&quot;style_loginSec__pTp_V&quot;]</value>
+      <webElementGuid>41f9be8c-c11c-4bec-8d20-8a452a2a2d10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[1]/following::div[1]</value>
+      <webElementGuid>9c3e5744-4aba-4a24-b065-fb553fc65d2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blog'])[1]/following::div[3]</value>
+      <webElementGuid>86f2b15f-7fd4-46ff-95db-81c31491277d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div</value>
+      <webElementGuid>9b94c553-0f9e-45c7-96e6-8d83184ceb95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>c73430fb-c4c0-4ca0-b12a-348f06be393a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

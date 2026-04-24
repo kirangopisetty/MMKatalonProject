@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15-UPLOAD-FILE</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13e9ac64-cea2-4141-a20b-a5a38e712bb4</testCaseGuid>
+</TestCaseEntity>

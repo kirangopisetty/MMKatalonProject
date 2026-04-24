@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC32-HEALTHCARE-LOGOUT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25aa1b00-2157-48b8-8ea5-9dcd33dd0b7f</testCaseGuid>
+</TestCaseEntity>
