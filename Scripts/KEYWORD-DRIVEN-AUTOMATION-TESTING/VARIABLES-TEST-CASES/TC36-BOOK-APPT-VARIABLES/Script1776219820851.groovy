@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByLabel(findTestObject('CURA/DROPDOWN'), varFacility, false)
+WebUI.selectOptionByLabel(findTestObject('CURA-OR/DROPDOWN'), varFacility, false)
 
-WebUI.verifyElementNotChecked(findTestObject('CURA/CHECKBOX'), 2)
+WebUI.verifyElementNotChecked(findTestObject('CURA-OR/CHECKBOX'), 2)
 
-WebUI.check(findTestObject('CURA/CHECKBOX'))
+WebUI.check(findTestObject('CURA-OR/CHECKBOX'))
 
-WebUI.click(findTestObject('CURA/MEDICAID'))
+WebUI.click(findTestObject('CURA-OR/MEDICAID'))
 
-WebUI.setText(findTestObject('CURA/VISIT-DATE'), varVisitDate)
+WebUI.setText(findTestObject('CURA-OR/VISIT-DATE'), varVisitDate)
 
-WebUI.setText(findTestObject('CURA/COMMENT'), varComment)
+WebUI.setText(findTestObject('CURA-OR/COMMENT'), varComment)
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeAppt.jpg')
 
-WebUI.click(findTestObject('CURA/BOOK-APPT-BUTTON'))
+WebUI.click(findTestObject('CURA-OR/BOOK-APPT-BUTTON'))
 
 WebUI.verifyTextPresent('Appointment Confirmation', false)
 

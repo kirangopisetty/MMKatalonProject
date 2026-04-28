@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://mindmajix.com/login')
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('MINDMAJIX-OR/Email-Textbox'), 'kiran@gmail.com')
 
-WebUI.navigateToUrl(varURL)
+WebUI.setEncryptedText(findTestObject('MINDMAJIX-OR/Pwd-Textbox'), 'CIvAFvqrZe0=')
 
-WebUI.verifyTextPresent('Please login to make appointment', false)
-
-WebUI.setText(findTestObject('CURA-OR/UN'), varUN)
-
-WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), varPWD)
-
-WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
-
-WebUI.click(findTestObject('CURA-OR/LOGIN'))
-
-WebUI.verifyTextNotPresent('Please login to make appointment', false)
-
-WebUI.verifyTextPresent('Make Appointment', false)
+WebUI.click(findTestObject('MINDMAJIX-OR/Submit_Button'))
 

@@ -17,23 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(varURL)
+WebUI.setText(findTestObject('ORANGE-HRM-OR/UN'), 'admin')
 
-WebUI.verifyTextPresent('Please login to make appointment', false)
+WebUI.setEncryptedText(findTestObject('ORANGE-HRM-OR/PWD'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.setText(findTestObject('CURA-OR/UN'), varUN)
+WebUI.click(findTestObject('ORANGE-HRM-OR/LOGIN'))
 
-WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), varPWD)
+WebUI.click(findTestObject('ORANGE-HRM-OR/PROFILE-MENU'))
 
-WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
+WebUI.click(findTestObject('ORANGE-HRM-OR/LOGOUT'))
 
-WebUI.click(findTestObject('CURA-OR/LOGIN'))
+WebUI.deleteAllCookies()
 
-WebUI.verifyTextNotPresent('Please login to make appointment', false)
-
-WebUI.verifyTextPresent('Make Appointment', false)
+WebUI.closeBrowser()
 

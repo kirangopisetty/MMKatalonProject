@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CURA/MENU'))
+WebUI.click(findTestObject('CURA-OR/MENU'))
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogout.jpg')
 
-WebUI.click(findTestObject('CURA/LOGOUT'))
+WebUI.click(findTestObject('CURA-OR/LOGOUT'))
 
 WebUI.verifyTextPresent('We Care About Your Health', false)
 

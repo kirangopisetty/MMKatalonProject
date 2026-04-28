@@ -17,23 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+CustomKeywords.'com.kiran.keywords.browserNewKeywords.simpleKeyword'()
 
-WebUI.maximizeWindow()
+CustomKeywords.'com.kiran.keywords.browserNewKeywords.browserInit'()
 
-WebUI.navigateToUrl(varURL)
+WebUI.navigateToUrl('www.google.com')
 
-WebUI.verifyTextPresent('Please login to make appointment', false)
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('CURA-OR/UN'), varUN)
+CustomKeywords.'com.kiran.keywords.browserNewKeywords.browserRefresh'()
 
-WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), varPWD)
+WebUI.navigateToUrl('www.microsoft.com')
+WebUI.delay(5)
+// CustomKeywords.'com.kiran.keywords.browserNewKeywords.browserResize'()
+CustomKeywords.'com.kiran.keywords.browserNewKeywords.browserCleanup'()
 
-WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
 
-WebUI.click(findTestObject('CURA-OR/LOGIN'))
-
-WebUI.verifyTextNotPresent('Please login to make appointment', false)
-
-WebUI.verifyTextPresent('Make Appointment', false)
 

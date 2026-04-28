@@ -25,24 +25,24 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.verifyTextPresent('Please login to make appointment', false)
 
-WebUI.setText(findTestObject('CURA/UN'), 'John Doe')
+WebUI.setText(findTestObject('CURA-OR/UN'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('CURA/PWD'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
 
-WebUI.click(findTestObject('CURA/LOGIN'))
+WebUI.click(findTestObject('CURA-OR/LOGIN'))
 
 WebUI.verifyTextNotPresent('Please login to make appointment', false)
 
 WebUI.verifyTextPresent('Make Appointment', false)
 
-varFacilityCount = WebUI.getNumberOfTotalOption(findTestObject('CURA/DROPDOWN'))
+varFacilityCount = WebUI.getNumberOfTotalOption(findTestObject('CURA-OR/DROPDOWN'))
 
 if (varFacilityCount == 3) {
     System.out.println('The Facility dropdown count is valid & the test case=PASSED')
 
-    varFacilityName = WebUI.verifyOptionsPresent(findTestObject('CURA/DROPDOWN'), ['Hongkong CURA Healthcare Center', 'Tokyo CURA Healthcare Center'
+    varFacilityName = WebUI.verifyOptionsPresent(findTestObject('CURA-OR/DROPDOWN'), ['Hongkong CURA Healthcare Center', 'Tokyo CURA Healthcare Center'
             , 'Seoul CURA Healthcare Center'])
 
     if (varFacilityName == true) {
@@ -58,31 +58,31 @@ if (varFacilityCount == 3) {
     WebUI.closeBrowser()
 }
 
-WebUI.selectOptionByLabel(findTestObject('CURA/DROPDOWN'), 'Seoul CURA Healthcare Center', false)
+WebUI.selectOptionByLabel(findTestObject('CURA-OR/DROPDOWN'), 'Seoul CURA Healthcare Center', false)
 
-WebUI.verifyElementNotChecked(findTestObject('CURA/CHECKBOX'), 2)
+WebUI.verifyElementNotChecked(findTestObject('CURA-OR/CHECKBOX'), 2)
 
-WebUI.check(findTestObject('CURA/CHECKBOX'))
+WebUI.check(findTestObject('CURA-OR/CHECKBOX'))
 
-WebUI.click(findTestObject('CURA/MEDICAID'))
+WebUI.click(findTestObject('CURA-OR/MEDICAID'))
 
-WebUI.setText(findTestObject('CURA/VISIT-DATE'), '30/04/2026')
+WebUI.setText(findTestObject('CURA-OR/VISIT-DATE'), '30/04/2026')
 
-WebUI.setText(findTestObject('CURA/COMMENT'), 'Fever')
+WebUI.setText(findTestObject('CURA-OR/COMMENT'), 'Fever')
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeAppt.jpg')
 
-WebUI.click(findTestObject('CURA/BOOK-APPT-BUTTON'))
+WebUI.click(findTestObject('CURA-OR/BOOK-APPT-BUTTON'))
 
 WebUI.verifyTextPresent('Appointment Confirmation', false)
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/apptBooked.jpg')
 
-WebUI.click(findTestObject('CURA/MENU'))
+WebUI.click(findTestObject('CURA-OR/MENU'))
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogout.jpg')
 
-WebUI.click(findTestObject('CURA/LOGOUT'))
+WebUI.click(findTestObject('CURA-OR/LOGOUT'))
 
 WebUI.verifyTextPresent('We Care About Your Health', false)
 

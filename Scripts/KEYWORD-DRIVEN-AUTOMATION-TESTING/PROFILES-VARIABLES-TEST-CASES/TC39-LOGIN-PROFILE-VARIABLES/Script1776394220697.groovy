@@ -25,13 +25,13 @@ WebUI.navigateToUrl(GlobalVariable.varURL)
 
 WebUI.verifyTextPresent('Please login to make appointment', false)
 
-WebUI.setText(findTestObject('CURA/UN'), GlobalVariable.varUN)
+WebUI.setText(findTestObject('CURA-OR/UN'), GlobalVariable.varUN)
 
-WebUI.setEncryptedText(findTestObject('CURA/PWD'), GlobalVariable.varPWD)
+WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), GlobalVariable.varPWD)
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
 
-WebUI.click(findTestObject('CURA/LOGIN'))
+WebUI.click(findTestObject('CURA-OR/LOGIN'))
 
 WebUI.verifyTextNotPresent('Please login to make appointment', false)
 

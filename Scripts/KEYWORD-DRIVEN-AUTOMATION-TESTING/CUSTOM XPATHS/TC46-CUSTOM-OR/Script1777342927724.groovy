@@ -16,24 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://blazedemo.com/login')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(varURL)
+WebUI.setText(findTestObject('CUSTOM-XPATHS-OR/EMAIL'), 'kiran@gmail.com')
 
-WebUI.verifyTextPresent('Please login to make appointment', false)
+WebUI.setText(findTestObject('CUSTOM-XPATHS-OR/PASSWORD'), 'tiger')
 
-WebUI.setText(findTestObject('CURA-OR/UN'), varUN)
+TestObject myLoginButton = new TestObject('customObject')
 
-WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), varPWD)
+myLoginButton.addProperty('xpath', ConditionType.EQUALS, '//button[contains(text(),\'Login\')]')
 
-WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
+WebUI.click(myLoginButton)
 
-WebUI.click(findTestObject('CURA-OR/LOGIN'))
+WebUI.newTab('https://demo.automationtesting.in/Register.html')
 
-WebUI.verifyTextNotPresent('Please login to make appointment', false)
-
-WebUI.verifyTextPresent('Make Appointment', false)
+WebUI.check(findTestObject('CUSTOM-XPATHS-OR/HOBBIES', [('hobbyName') : 'checkbox2']))
 

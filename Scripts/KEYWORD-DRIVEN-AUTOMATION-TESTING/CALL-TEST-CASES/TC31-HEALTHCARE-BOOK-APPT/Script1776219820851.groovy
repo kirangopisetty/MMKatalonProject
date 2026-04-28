@@ -18,21 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.selectOptionByLabel(findTestObject('CURA/DROPDOWN'), 'Seoul CURA Healthcare Center', false)
+WebUI.selectOptionByLabel(findTestObject('CURA-OR/DROPDOWN'), 'Seoul CURA Healthcare Center', false)
 
-WebUI.verifyElementNotChecked(findTestObject('CURA/CHECKBOX'), 2)
+WebUI.verifyElementNotChecked(findTestObject('CURA-OR/CHECKBOX'), 2)
 
-WebUI.check(findTestObject('CURA/CHECKBOX'))
+WebUI.check(findTestObject('CURA-OR/CHECKBOX'))
 
-WebUI.click(findTestObject('CURA/MEDICAID'))
+WebUI.click(findTestObject('CURA-OR/MEDICAID'))
 
-WebUI.setText(findTestObject('CURA/VISIT-DATE'), '30/04/2026')
+WebUI.setText(findTestObject('CURA-OR/VISIT-DATE'), '30/04/2026')
 
-WebUI.setText(findTestObject('CURA/COMMENT'), 'Fever')
+WebUI.setText(findTestObject('CURA-OR/COMMENT'), 'Fever')
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeAppt.jpg')
 
-WebUI.click(findTestObject('CURA/BOOK-APPT-BUTTON'))
+WebUI.click(findTestObject('CURA-OR/BOOK-APPT-BUTTON'))
 
 WebUI.verifyTextPresent('Appointment Confirmation', false)
 

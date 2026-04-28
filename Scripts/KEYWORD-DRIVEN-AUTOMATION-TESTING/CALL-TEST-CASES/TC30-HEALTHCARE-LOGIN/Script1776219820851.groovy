@@ -25,13 +25,13 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.verifyTextPresent('Please login to make appointment', false)
 
-WebUI.setText(findTestObject('CURA/UN'), 'John Doe')
+WebUI.setText(findTestObject('CURA-OR/UN'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('CURA/PWD'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('CURA-OR/PWD'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.takeScreenshot('/Users/Kiran/Downloads/beforeLogin.jpg')
 
-WebUI.click(findTestObject('CURA/LOGIN'))
+WebUI.click(findTestObject('CURA-OR/LOGIN'))
 
 WebUI.verifyTextNotPresent('Please login to make appointment', false)
 
